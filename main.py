@@ -29,9 +29,9 @@ while Flag:
             
         else:
             print('Enter the correct choice')
-            Flag = True
+            Play = True
     elif prompt.lower() == 'n':
         print('Game has Ended')
-        Flag = False
+        Play = False
     else:
         print('Enter the correct choice')
